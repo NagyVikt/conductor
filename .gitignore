@@ -59,3 +59,18 @@ server/*.db*
 *.db-shm
 *.db-wal
 docs/superpowers
+
+# multiagent-safety:START
+.omx/
+.omc/
+!.vscode/
+.vscode/*
+!.vscode/settings.json
+scripts/agent-session-state.js
+scripts/guardex-docker-loader.sh
+scripts/guardex-env.sh
+scripts/install-vscode-active-agents-extension.js
+.githooks
+oh-my-codex/
+.omx/state/agent-file-locks.json
+# multiagent-safety:END
